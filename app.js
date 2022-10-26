@@ -28,12 +28,14 @@ document.querySelector("#loanForm").addEventListener("submit", (e) => {
     const tableRow = document.createElement("tr");
     //CREATE ROWS & COLUMNS
     tableRow.innerHTML = `
-    <td>${i}</td>
-    <td>£${monthlyPayments.toFixed(2)}</td>
-    <td>£${(monthlyPayments - interest).toFixed(2)}</td>
-    <td>£${interest}</td>
-    <td>£${(interest * i).toFixed(2)}</td>
-    <td>£${(totalCost - monthlyPayments * i).toFixed(2)}</td>
+    <td data-label="Month">${i}</td>
+    <td data-label="Payment">£${monthlyPayments.toFixed(2)}</td>
+    <td data-label="Prinicpal">£${(monthlyPayments - interest).toFixed(2)}</td>
+    <td data-label="Interest">£${interest}</td>
+    <td data-label="Total Interest">£${(interest * i).toFixed(2)}</td>
+    <td data-label="Balance">£${(totalCost - monthlyPayments * i).toFixed(
+      2
+    )}</td>
   `;
 
     tableBody.appendChild(tableRow);
