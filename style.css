@@ -201,6 +201,7 @@ tbody tr:nth-child(even) td {
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #title {
@@ -245,6 +246,7 @@ tbody tr:nth-child(even) td {
   table td {
     text-align: right;
     padding-left: 50%;
+    height: 3em;
     text-align: right;
     position: relative;
   }
