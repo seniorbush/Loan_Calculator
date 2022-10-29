@@ -1,12 +1,17 @@
-body {
-  margin: 0;
-  padding: 4rem;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-}
-
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto !important;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  padding: 2rem;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -80,7 +85,7 @@ form {
   width: 6rem;
   font-weight: 600;
   margin-top: 1rem;
-  border: solid 1px grey;
+  text-align: center;
   border-radius: 4px;
 }
 
@@ -160,7 +165,6 @@ tbody tr:nth-child(even) td {
   align-items: center;
 }
 #resetForm {
-  justify-content: space-between;
   height: 2.5rem;
   width: 6rem;
   font-weight: 600;
@@ -230,6 +234,7 @@ tbody tr:nth-child(even) td {
   #apr {
     max-width: 50vw;
   }
+
   thead {
     display: none;
   }
@@ -249,13 +254,14 @@ tbody tr:nth-child(even) td {
     height: 3em;
     text-align: right;
     position: relative;
+    padding-right: 5px;
   }
   table td::before {
     content: attr(data-label);
     position: absolute;
     left: 0;
     width: 50%;
-    padding-left: 15px;
+    padding-left: 5px;
     font-weight: bold;
     text-align: left;
   }
