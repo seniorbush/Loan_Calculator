@@ -211,6 +211,7 @@ tbody tr:nth-child(even) td {
   }
   .buttons {
     flex-direction: column;
+    padding: 0;
   }
   #calc {
     text-align: center;
