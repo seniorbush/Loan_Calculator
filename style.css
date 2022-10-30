@@ -80,15 +80,6 @@ form {
   gap: 0.5rem;
 }
 
-#calc {
-  height: 2rem;
-  width: 6rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  text-align: center;
-  border-radius: 4px;
-}
-
 .upper-right {
   margin-left: 5px;
   margin-bottom: 10px;
@@ -177,9 +168,9 @@ tbody tr:nth-child(even) td {
   transition: 0.1s;
 }
 #resetForm:hover {
-  border: solid 2px white;
   cursor: pointer;
   color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.852);
 }
 
 #calc {
@@ -189,6 +180,7 @@ tbody tr:nth-child(even) td {
   margin-top: 1rem;
   border-radius: 4px;
   font-size: 16px;
+  text-align: center;
   border: none;
   background-color: rgba(20, 20, 131, 0.852);
   color: #fff;
@@ -196,9 +188,9 @@ tbody tr:nth-child(even) td {
 }
 
 #calc:hover {
-  border: solid 2px white;
   cursor: pointer;
   color: #fff;
+  box-shadow: 0 0 4px rgba(20, 20, 131, 0.852);
 }
 
 @media only screen and (max-width: 1290px) {
@@ -220,7 +212,9 @@ tbody tr:nth-child(even) td {
   .buttons {
     flex-direction: column;
   }
-
+  #calc {
+    text-align: center;
+  }
   .upper-right {
     margin-left: 0px;
     width: 100%;
