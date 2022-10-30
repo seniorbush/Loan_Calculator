@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/57599008/198896784-3a554af1-40e0-424d-abe0-8eb5ec58e64a.png)
+![image](https://user-images.githubusercontent.com/57599008/198897020-3981bc0d-a6f1-480d-ad71-303abf8efd97.png)
 
 **A responsive web application that allows the user to calculate monthly loan repayments.**
 
